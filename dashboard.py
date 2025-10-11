@@ -77,5 +77,3 @@ elif menu == "📊 Average Scores":
     st.pyplot(fig)
 
 
-st.write("---")
-st.write("Developed by Syed Fazlur Rehman")
