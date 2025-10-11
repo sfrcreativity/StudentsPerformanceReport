@@ -10,18 +10,18 @@ def local_css(file_name):
 local_css("style.css")
 
 # Sidebar with image
-#st.sidebar.image("photo.png", width=200)  # Adjust width as needed
-st.sidebar.markdown("""<div style="display: flex; flex-direction: column; align-items: center;">
-                    <img src="photo.png" width="120"/>
+st.sidebar.container(horizontal_alignment="center")
+st.sidebar.image("photo.png", width=200)  # Adjust width as needed
+st.sidebar.markdown("""                   
                     <h3 style='text-align: center;'>
                     Myself<br>Syed Fazlur Rehman
-                    <br>AI Enthisiust</h3></div>""",
+                    <br>AI Enthisiust</h3>""",
     unsafe_allow_html=True)
 
 st.title("📊 Students Performance Report")
 st.write("---")
 
-st.set_page_config(page_title="Home", page_icon=":house:", layout="wide")
+st.set_page_config(page_title="Home", page_icon=":house:", layout="centered")
 df = pd.read_csv('StudentsPerformance.csv')
 
 # Sidebar UI
