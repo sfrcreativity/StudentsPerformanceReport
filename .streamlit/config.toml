@@ -1,0 +1,7 @@
+[theme]
+base="dark"
+primaryColor="#1DB954"          # accent color (like Spotify green)
+backgroundColor="#0E1117"       # app background
+secondaryBackgroundColor="#262730"
+textColor="#FAFAFA"
+font="Roboto"
