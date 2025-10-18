@@ -7,6 +7,11 @@ import seaborn as sns
 # ---------------------- PAGE SETUP ----------------------
 st.title("📊 Students Performance Report")
 st.write("---")
+
+#st.write(pd.__version__)  # Display pandas version for debugging
+#st.write(matplotlib.__version__)  # Display matplotlib version for debugging
+#st.write(sns.__version__)  # Display seaborn version for debugging
+#st.write(st.__version__)  # Display seaborn version for debugging
 st.set_page_config(page_title="Home", page_icon=":house:", layout="centered")
 
 # ---------------------- SIDEBAR CONFIGURATION ----------------------
